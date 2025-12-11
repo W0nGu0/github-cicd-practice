@@ -15,9 +15,9 @@ jobs:
       - name: 校验静态文件是否存在
         run: |
           if [ -f "dist/index.html" ]; then
-            echo "✅ dist/index.html 文件存在，校验通过！"
+            echo "✅ dist/index.html 文件存在，校验通过 ！"
           else
-            echo "❌ dist/index.html 文件缺失，校验失败！"
+            echo "❌ dist/index.html 文件缺失，校验失败 ！"
             exit 1
           fi
 
